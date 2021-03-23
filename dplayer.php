@@ -211,6 +211,7 @@ EOF;
                 }
                 update_option( 'kblog_danmaku_dplayer_version_check', $current_time );
             }
+		
             
             wp_enqueue_style( 'dplayer', esc_url("https://cdnjs.cat.net/ajax/libs/dplayer/$dplayer_version/DPlayer.min.css"), false, $dplayer_version, false );
             wp_enqueue_script( 'dplayer', esc_url("https://cdnjs.cat.net/ajax/libs/dplayer/$dplayer_version/DPlayer.min.js"), false, $dplayer_version, false );
